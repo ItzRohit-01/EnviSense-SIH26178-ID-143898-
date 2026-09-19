@@ -1,0 +1,64 @@
+.category-page {
+  padding: 20px;
+  background: #f5f6f8;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.category-hero {
+  background: linear-gradient(135deg, #ff6a00, #ff9f1c);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category-hero h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.category-hero p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* GRID */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.category-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* ICON */
+.icon-box {
+  font-size: 35px;
+  color: #ff6a00;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  margin: 10px 0 5px;
+}
+
+.category-card p {
+  color: gray;
+  font-size: 13px;
+}

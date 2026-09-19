@@ -1,0 +1,92 @@
+/* 🌍 FULL BACKGROUND */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #eef2f3, #f5f7fb);
+  font-family: Arial, sans-serif;
+}
+
+/* 📦 CONTAINER */
+.checkout-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 🧾 TITLE */
+.checkout-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 📐 VERTICAL FLOW */
+.checkout-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 🧱 CARD UI */
+.checkout-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ✏️ INPUTS */
+.checkout-box input,
+.checkout-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* 💳 PAYMENT ALIGNMENT */
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+/* radio size */
+.payment-option input[type="radio"] {
+  width: 16px;
+  height: 16px;
+}
+
+/* selected highlight */
+.payment-option input:checked + span {
+  font-weight: bold;
+  color: green;
+}
+
+/* 🛍️ SUMMARY */
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* 🚀 BUTTON */
+.place-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.place-btn:hover {
+  background: #333;
+}
