@@ -145,8 +145,8 @@ const ErrorMsg = styled.p`
 
 const LoginPage = () => {
   const { signIn, loading } = useAuth();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('sujithra@gmail.com');
+  const [password, setPassword] = useState('123456');
   const [error, setError] = useState(null);
 
   const handleSubmit = async (e) => {

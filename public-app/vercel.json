@@ -1,0 +1,17 @@
+{
+  "services": {
+    "ecommerce-backend": {
+      "root": ".",
+      "framework": "vite"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "ecommerce-backend"
+      }
+    }
+  ]
+}

@@ -73,3 +73,48 @@ src/
    - **Animations:** Pages use `framer-motion` to slide items in staggeringly.
    - **Responsive:** Sidebar moves to the bottom/top on mobile phones.
    - **Status Indicators:** Glowing dots and badges visually indicate danger levels instantly.
+
+## 🛠️ How to Run Locally (From GitHub)
+
+Follow these steps to set up and run the Envisense dashboard on your local machine:
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- Git installed on your system
+
+### 1. Clone the Repository
+Open your terminal or command prompt and clone the repository using Git:
+```bash
+git clone <YOUR_GITHUB_REPO_URL>
+cd Envisense/public-app
+```
+
+### 2. Install Dependencies
+Install all the necessary NPM packages:
+```bash
+npm install
+```
+
+### 3. Setup Firebase Configuration
+Since the app relies on Firebase, you need to set up your environment variables. 
+1. Create a `.env.local` file in the root of the `public-app` folder.
+2. Add your Firebase config variables to it (e.g., `VITE_FIREBASE_API_KEY`, `VITE_FIREBASE_AUTH_DOMAIN`, etc., based on your `firebase.js` setup).
+
+### 4. Run the Development Server
+Start the local development server using Vite:
+```bash
+npm run dev
+```
+
+### 5. Access the App
+Open your browser and navigate to the URL provided by Vite, typically:
+```
+http://localhost:5173
+```
+
+### 6. Build for Production (Optional)
+To create a production-ready build:
+```bash
+npm run build
+```
+The optimized files will be generated in the `dist` folder, which can be served using any static hosting service (like Vercel, Netlify, or Firebase Hosting).
