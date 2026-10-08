@@ -1,5 +1,9 @@
 # Envisense Project
 
+### 🌍 Live Demos
+- **Public App**: [https://public-app-sand.vercel.app](https://public-app-sand.vercel.app)
+- **Authority Dashboard**: [https://authority-dashboard-two.vercel.app](https://authority-dashboard-two.vercel.app) (Demo Login: `sujithra@gmail.com` / `123456`)
+
 This repository contains two main applications for the Envisense Project:
 1. `public-app`: The public-facing web application.
 2. `authority-dashboard`: The administrative dashboard.
